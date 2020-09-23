@@ -1,0 +1,50 @@
+.main {
+  display:flex;
+  flex-grow: 1;  
+  flex-direction: column;
+  
+}
+
+.topPanel {
+  flex-direction: column;  
+  flex-grow: 1;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.bottomPanel {
+  flex-direction: column; 
+  flex-grow: 1;  
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.footer {
+  position:absolute;
+  z-index:2;  
+  /* display: flex; */  
+  background-color: #222;  
+  padding:.3em;
+  bottom:0px;
+  color: #f0f0f0;
+  font-size:.8em;
+  width:100%;
+}
+
+.btn {
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-size: 1em;
+  text-transform: uppercase;
+  background:none;
+}
+
+.btn_disabled {
+  border: 1px solid #444;
+  color: #444;
+}
+
+.btn_red {
+  border: 1px solid #B33;
+  color: #B33;  
+}

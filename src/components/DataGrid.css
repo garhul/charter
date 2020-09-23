@@ -1,0 +1,40 @@
+.dataGrid {    
+    width:100%;            
+    scroll-behavior: smooth;    
+    font-size:1em;
+    overflow: hidden;
+}
+
+.dataGridLabels {
+    position:fixed;
+    z-index:2;
+    width:100%;    
+    color:#fff;
+    background-color:#404040;
+    display: flex;  
+    flex-flow: row;
+    justify-content:space-evenly;
+}
+
+.dataGridRow {
+    padding:.2em;
+    border:1px solid #9a9a9a;
+    display: flex;  
+    flex-flow: row;
+    justify-content:space-evenly;   
+    background-color:#b6b3b3;
+    font-family: monospace;    
+}
+
+.dataGridCell {
+    padding: 0em 2em;
+    text-align:left; 
+    /* border-left:1px solid */
+}
+
+.dataRows {    
+    width:100%;    
+    position:absolute;
+    /* overflow: scroll; */
+
+}
